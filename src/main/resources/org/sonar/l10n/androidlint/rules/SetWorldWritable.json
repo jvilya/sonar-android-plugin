@@ -1,0 +1,16 @@
+{
+  "sqKey": "SetWorldWritable",
+  "title": "File.setWritable() used to make file world-writable",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "security"
+  ],
+  "defaultSeverity": "MINOR",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

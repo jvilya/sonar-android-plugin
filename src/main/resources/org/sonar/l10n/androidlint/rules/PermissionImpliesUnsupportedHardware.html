@@ -1,0 +1,10 @@
+<pre>
+The <uses-permission> element should not require a permission that implies an
+unsupported TV hardware feature. Google Play assumes that certain hardware
+related permissions indicate that the underlying hardware features are
+required by default. To fix the issue, consider declaring the corresponding
+uses-feature element with required="false" attribute.
+
+More information: 
+http://developer.android.com/guide/topics/manifest/uses-feature-element.html#permissions
+</pre>

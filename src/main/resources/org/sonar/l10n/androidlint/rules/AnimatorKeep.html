@@ -1,0 +1,10 @@
+<pre>
+When you use property animators, properties can be accessed via reflection.
+Those methods should be annotated with @Keep to ensure that during release
+builds, the methods are not potentially treated as unused and removed, or
+treated as internal only and get renamed to something shorter.
+
+This check will also flag other potential reflection problems it encounters,
+such as a missing property, wrong argument types, etc.
+
+</pre>

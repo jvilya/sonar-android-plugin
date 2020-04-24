@@ -1,0 +1,16 @@
+{
+  "sqKey": "TypographyDashes",
+  "title": "Hyphen can be replaced with dash",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "usability#typography"
+  ],
+  "defaultSeverity": "MINOR",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

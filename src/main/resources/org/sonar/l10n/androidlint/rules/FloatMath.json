@@ -1,0 +1,16 @@
+{
+  "sqKey": "FloatMath",
+  "title": "Using FloatMath instead of Math",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "performance"
+  ],
+  "defaultSeverity": "MINOR",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

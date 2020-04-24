@@ -1,0 +1,16 @@
+{
+  "sqKey": "ObsoleteSdkInt",
+  "title": "Obsolete SDK_INT Version Check",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "performance"
+  ],
+  "defaultSeverity": "MINOR",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

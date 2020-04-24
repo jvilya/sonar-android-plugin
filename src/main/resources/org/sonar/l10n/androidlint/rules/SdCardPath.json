@@ -1,0 +1,16 @@
+{
+  "sqKey": "SdCardPath",
+  "title": "Hardcoded reference to /sdcard",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "correctness"
+  ],
+  "defaultSeverity": "MINOR",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

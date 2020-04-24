@@ -1,0 +1,16 @@
+{
+  "sqKey": "WorldReadableFiles",
+  "title": "openFileOutput() or similar call passing MODE_WORLD_READABLE",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "security"
+  ],
+  "defaultSeverity": "MINOR",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

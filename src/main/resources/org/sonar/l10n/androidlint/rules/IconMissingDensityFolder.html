@@ -1,0 +1,13 @@
+<pre>
+Icons will look best if a custom version is provided for each of the major
+screen density classes (low, medium, high, extra-high, extra-extra-high). This
+lint check identifies folders which are missing, such as drawable-hdpi.
+
+Low density is not really used much anymore, so this check ignores the ldpi
+density. To force lint to include it, set the environment variable
+ANDROID_LINT_INCLUDE_LDPI=true. For more information on current density usage,
+see http://developer.android.com/resources/dashboard/screens.html
+
+More information: 
+http://developer.android.com/guide/practices/screens_support.html
+</pre>

@@ -1,0 +1,16 @@
+{
+  "sqKey": "HardwareIds",
+  "title": "Hardware Id Usage",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "security"
+  ],
+  "defaultSeverity": "MINOR",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

@@ -1,0 +1,10 @@
+<pre>
+The <uses-library> element should be defined as a direct child of the
+<application> tag, not the <manifest> tag or an <activity> tag. Similarly, a
+<uses-sdk> tag must be declared at the root level, and so on. This check looks
+for incorrect declaration locations in the manifest, and complains if an
+element is found in the wrong place.
+
+More information: 
+http://developer.android.com/guide/topics/manifest/manifest-intro.html
+</pre>

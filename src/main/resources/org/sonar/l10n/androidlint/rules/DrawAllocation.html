@@ -1,0 +1,12 @@
+<pre>
+You should avoid allocating objects during a drawing or layout operation.
+These are called frequently, so a smooth UI can be interrupted by garbage
+collection pauses caused by the object allocations.
+
+The way this is generally handled is to allocate the needed objects up front
+and to reuse them for each drawing operation.
+
+Some methods allocate memory on your behalf (such as Bitmap.create), and these
+should be handled in the same way.
+
+</pre>

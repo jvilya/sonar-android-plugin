@@ -1,0 +1,16 @@
+{
+  "sqKey": "VisibleForTests",
+  "title": "Visible Only For Tests",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "correctness"
+  ],
+  "defaultSeverity": "MINOR",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

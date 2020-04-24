@@ -1,0 +1,16 @@
+{
+  "sqKey": "UnsafeNativeCodeLocation",
+  "title": "Native code outside library directory",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "security"
+  ],
+  "defaultSeverity": "MINOR",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

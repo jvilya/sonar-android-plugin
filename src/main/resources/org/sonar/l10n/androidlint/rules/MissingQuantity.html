@@ -1,0 +1,17 @@
+<pre>
+Different languages have different rules for grammatical agreement with
+quantity. In English, for example, the quantity 1 is a special case. We write
+"1 book", but for any other quantity we'd write "n books". This distinction
+between singular and plural is very common, but other languages make finer
+distinctions.
+
+This lint check looks at each translation of a <plural> and makes sure that
+all the quantity strings considered by the given language are provided by this
+translation.
+
+For example, an English translation must provide a string for quantity="one".
+Similarly, a Czech translation must provide a string for quantity="few".
+
+More information: 
+http://developer.android.com/guide/topics/resources/string-resource.html#Plurals
+</pre>

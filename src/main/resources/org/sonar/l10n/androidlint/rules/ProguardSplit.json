@@ -1,0 +1,16 @@
+{
+  "sqKey": "ProguardSplit",
+  "title": "Proguard.cfg file contains generic Android rules",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "correctness"
+  ],
+  "defaultSeverity": "MINOR",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

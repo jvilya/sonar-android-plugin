@@ -1,0 +1,16 @@
+{
+  "sqKey": "StringFormatMatches",
+  "title": "String.format string doesn\u0027t match the XML format string",
+  "type": "BUG",
+  "tags": [
+    "android",
+    "correctness#messages"
+  ],
+  "defaultSeverity": "MAJOR",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

@@ -1,0 +1,16 @@
+{
+  "sqKey": "GradleCompatible",
+  "title": "Incompatible Gradle Versions",
+  "type": "BUG",
+  "tags": [
+    "android",
+    "correctness"
+  ],
+  "defaultSeverity": "CRITICAL",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

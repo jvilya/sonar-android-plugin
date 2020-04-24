@@ -1,0 +1,16 @@
+{
+  "sqKey": "ResourceCycle",
+  "title": "Cycle in resource definitions",
+  "type": "BUG",
+  "tags": [
+    "android",
+    "correctness"
+  ],
+  "defaultSeverity": "CRITICAL",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

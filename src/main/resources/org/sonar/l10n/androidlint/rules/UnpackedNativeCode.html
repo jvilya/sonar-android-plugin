@@ -1,0 +1,11 @@
+<pre>NOTE: This issue is disabled by default!
+You can enable it by adding --enable UnpackedNativeCode
+
+This app loads native libraries using System.loadLibrary().
+
+Consider adding android:extractNativeLibs="false" to the <application> tag in
+AndroidManifest.xml. Starting with Android 6.0, this will make installation
+faster, the app will take up less space on the device and updates will have
+smaller download sizes.
+
+</pre>

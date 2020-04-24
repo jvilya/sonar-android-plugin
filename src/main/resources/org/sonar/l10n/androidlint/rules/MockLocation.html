@@ -1,0 +1,11 @@
+<pre>
+Using a mock location provider (by requiring the permission
+android.permission.ACCESS_MOCK_LOCATION) should only be done in debug builds
+(or from tests). In Gradle projects, that means you should only request this
+permission in a test or debug source set specific manifest file.
+
+To fix this, create a new manifest file in the debug folder and move the
+<uses-permission> element there. A typical path to a debug manifest override
+file in a Gradle project is src/debug/AndroidManifest.xml.
+
+</pre>

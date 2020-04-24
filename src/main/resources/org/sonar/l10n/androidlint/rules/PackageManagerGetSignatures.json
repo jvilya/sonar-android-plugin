@@ -1,0 +1,16 @@
+{
+  "sqKey": "PackageManagerGetSignatures",
+  "title": "Potential Multiple Certificate Exploit",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "security"
+  ],
+  "defaultSeverity": "INFO",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

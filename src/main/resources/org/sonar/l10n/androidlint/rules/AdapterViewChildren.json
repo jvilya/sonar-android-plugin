@@ -1,0 +1,16 @@
+{
+  "sqKey": "AdapterViewChildren",
+  "title": "AdapterViews cannot have children in XML",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "correctness"
+  ],
+  "defaultSeverity": "MINOR",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

@@ -1,0 +1,16 @@
+{
+  "sqKey": "ExportedPreferenceActivity",
+  "title": "PreferenceActivity should not be exported",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "security"
+  ],
+  "defaultSeverity": "MINOR",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

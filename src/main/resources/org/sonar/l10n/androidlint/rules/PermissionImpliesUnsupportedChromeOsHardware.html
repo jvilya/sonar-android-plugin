@@ -1,0 +1,12 @@
+<pre>NOTE: This issue is disabled by default!
+You can enable it by adding --enable PermissionImpliesUnsupportedChromeOsHardware
+
+The <uses-permission> element should not require a permission that implies an
+unsupported Chrome OS hardware feature. Google Play assumes that certain
+hardware related permissions indicate that the underlying hardware features
+are required by default. To fix the issue, consider declaring the
+corresponding uses-feature element with required="false" attribute.
+
+More information: 
+https://developer.android.com/topic/arc/manifest.html#implied-features
+</pre>

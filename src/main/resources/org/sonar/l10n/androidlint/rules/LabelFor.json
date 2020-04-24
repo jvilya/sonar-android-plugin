@@ -1,0 +1,16 @@
+{
+  "sqKey": "LabelFor",
+  "title": "Missing labelFor attribute",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "accessibility"
+  ],
+  "defaultSeverity": "MINOR",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

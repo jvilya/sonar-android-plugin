@@ -1,0 +1,16 @@
+{
+  "sqKey": "HardcodedText",
+  "title": "Hardcoded text",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "internationalization"
+  ],
+  "defaultSeverity": "MINOR",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

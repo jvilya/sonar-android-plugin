@@ -1,0 +1,11 @@
+<pre>
+Lint will flag any byte-order-mark (BOM) characters it finds in the middle of
+a file. Since we expect files to be encoded with UTF-8 (see the EnforceUTF8
+issue), the BOM characters are not necessary, and they are not handled
+correctly by all tools. For example, if you have a BOM as part of a resource
+name in one particular translation, that name will not be considered identical
+to the base resource's name and the translation will not be used.
+
+More information: 
+http://en.wikipedia.org/wiki/Byte_order_mark
+</pre>

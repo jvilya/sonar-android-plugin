@@ -1,0 +1,16 @@
+{
+  "sqKey": "MenuTitle",
+  "title": "Missing menu title",
+  "type": "BUG",
+  "tags": [
+    "android",
+    "usability"
+  ],
+  "defaultSeverity": "MAJOR",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

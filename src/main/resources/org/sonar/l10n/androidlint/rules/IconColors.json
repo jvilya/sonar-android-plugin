@@ -1,0 +1,16 @@
+{
+  "sqKey": "IconColors",
+  "title": "Icon colors do not follow the recommended visual style",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "usability#icons"
+  ],
+  "defaultSeverity": "MINOR",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

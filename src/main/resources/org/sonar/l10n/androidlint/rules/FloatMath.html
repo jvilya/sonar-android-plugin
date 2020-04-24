@@ -1,0 +1,12 @@
+<pre>
+In older versions of Android, using android.util.FloatMath was recommended for
+performance reasons when operating on floats. However, on modern hardware
+doubles are just as fast as float (though they take more memory), and in
+recent versions of Android, FloatMath is actually slower than using
+java.lang.Math due to the way the JIT optimizes java.lang.Math. Therefore, you
+should use Math instead of FloatMath if you are only targeting Froyo and
+above.
+
+More information: 
+http://developer.android.com/guide/practices/design/performance.html#avoidfloat
+</pre>

@@ -1,0 +1,16 @@
+{
+  "sqKey": "UnsupportedChromeOsHardware",
+  "title": "Unsupported Chrome OS Hardware Feature",
+  "type": "BUG",
+  "tags": [
+    "android",
+    "correctness#chrome-os"
+  ],
+  "defaultSeverity": "MAJOR",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

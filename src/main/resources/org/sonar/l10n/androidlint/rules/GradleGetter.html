@@ -1,0 +1,14 @@
+<pre>
+Gradle will let you replace specific constants in your build scripts with
+method calls, so you can for example dynamically compute a version string
+based on your current version control revision number, rather than hardcoding
+a number.
+
+When computing a version name, it's tempting to for example call the method to
+do that getVersionName. However, when you put that method call inside the
+defaultConfig block, you will actually be calling the Groovy getter for the
+versionName property instead. Therefore, you need to name your method
+something which does not conflict with the existing implicit getters. Consider
+using compute as a prefix instead of get.
+
+</pre>

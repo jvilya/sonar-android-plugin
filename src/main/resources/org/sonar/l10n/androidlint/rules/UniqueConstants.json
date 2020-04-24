@@ -1,0 +1,16 @@
+{
+  "sqKey": "UniqueConstants",
+  "title": "Overlapping Enumeration Constants",
+  "type": "BUG",
+  "tags": [
+    "android",
+    "correctness"
+  ],
+  "defaultSeverity": "MAJOR",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

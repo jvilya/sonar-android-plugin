@@ -1,0 +1,16 @@
+{
+  "sqKey": "UseCompoundDrawables",
+  "title": "Node can be replaced by a TextView with compound drawables",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "performance"
+  ],
+  "defaultSeverity": "MINOR",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

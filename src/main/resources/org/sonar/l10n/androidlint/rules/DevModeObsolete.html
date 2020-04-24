@@ -1,0 +1,16 @@
+<pre>
+In the past, our documentation recommended creating a dev product flavor with
+has a minSdkVersion of 21, in order to enable multidexing to speed up builds
+significantly during development.
+
+That workaround is no longer necessary, and it has some serious downsides,
+such as breaking API access checking (since the true minSdkVersion is no
+longer known.)
+
+In recent versions of the IDE and the Gradle plugin, the IDE automatically
+passes the API level of the connected device used for deployment, and if that
+device is at least API 21, then multidexing is automatically turned on,
+meaning that you get the same speed benefits as the dev product flavor but
+without the downsides.
+
+</pre>

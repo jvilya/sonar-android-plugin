@@ -1,0 +1,16 @@
+{
+  "sqKey": "GoogleAppIndexingWarning",
+  "title": "Missing support for Firebase App Indexing",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "usability"
+  ],
+  "defaultSeverity": "MINOR",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

@@ -1,0 +1,10 @@
+<pre>
+Your code should not reference the /sdcard path directly; instead use
+Environment.getExternalStorageDirectory().getPath().
+
+Similarly, do not reference the /data/data/ path directly; it can vary in
+multi-user scenarios. Instead, use Context.getFilesDir().getPath().
+
+More information: 
+http://developer.android.com/guide/topics/data/data-storage.html#filesExternal
+</pre>

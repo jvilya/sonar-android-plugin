@@ -1,0 +1,12 @@
+<pre>
+A LinearLayout which contains an ImageView and a TextView can be more
+efficiently handled as a compound drawable (a single TextView, using the
+drawableTop, drawableLeft, drawableRight and/or drawableBottom attributes to
+draw one or more images adjacent to the text).
+
+If the two widgets are offset from each other with margins, this can be
+replaced with a drawablePadding attribute.
+
+There's a lint quickfix to perform this conversion in the Eclipse plugin.
+
+</pre>

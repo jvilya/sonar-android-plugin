@@ -1,0 +1,16 @@
+{
+  "sqKey": "IconXmlAndPng",
+  "title": "Icon is specified both as .xml file and as a bitmap",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "usability#icons"
+  ],
+  "defaultSeverity": "MINOR",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

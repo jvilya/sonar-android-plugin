@@ -1,0 +1,16 @@
+{
+  "sqKey": "SmallSp",
+  "title": "Text size is too small",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "usability"
+  ],
+  "defaultSeverity": "MINOR",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

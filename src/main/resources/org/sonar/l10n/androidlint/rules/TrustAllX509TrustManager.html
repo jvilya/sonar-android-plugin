@@ -1,0 +1,7 @@
+<pre>
+This check looks for X509TrustManager implementations whose checkServerTrusted
+or checkClientTrusted methods do nothing (thus trusting any certificate chain)
+which could result in insecure network traffic caused by trusting arbitrary
+TLS/SSL certificates presented by peers.
+
+</pre>

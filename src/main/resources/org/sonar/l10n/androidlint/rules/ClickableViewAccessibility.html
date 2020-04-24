@@ -1,0 +1,8 @@
+<pre>
+If a View that overrides onTouchEvent or uses an OnTouchListener does not also
+implement performClick and call it when clicks are detected, the View may not
+handle accessibility actions properly. Logic handling the click actions should
+ideally be placed in View#performClick as some accessibility services invoke
+performClick when a click action should occur.
+
+</pre>

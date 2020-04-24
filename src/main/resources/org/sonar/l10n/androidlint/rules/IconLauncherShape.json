@@ -1,0 +1,16 @@
+{
+  "sqKey": "IconLauncherShape",
+  "title": "The launcher icon shape should use a distinct silhouette",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "usability#icons"
+  ],
+  "defaultSeverity": "MINOR",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

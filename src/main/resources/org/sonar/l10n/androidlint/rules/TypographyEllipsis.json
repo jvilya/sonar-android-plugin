@@ -1,0 +1,16 @@
+{
+  "sqKey": "TypographyEllipsis",
+  "title": "Ellipsis string can be replaced with ellipsis character",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "usability#typography"
+  ],
+  "defaultSeverity": "MINOR",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

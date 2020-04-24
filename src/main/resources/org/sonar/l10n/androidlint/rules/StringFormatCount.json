@@ -1,0 +1,16 @@
+{
+  "sqKey": "StringFormatCount",
+  "title": "Formatting argument types incomplete or inconsistent",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "correctness#messages"
+  ],
+  "defaultSeverity": "MINOR",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

@@ -1,0 +1,16 @@
+{
+  "sqKey": "RtlHardcoded",
+  "title": "Using left/right instead of start/end attributes",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "internationalization#bidirectional-text"
+  ],
+  "defaultSeverity": "MINOR",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

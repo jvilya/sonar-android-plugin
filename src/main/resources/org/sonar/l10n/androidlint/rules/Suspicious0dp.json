@@ -1,0 +1,16 @@
+{
+  "sqKey": "Suspicious0dp",
+  "title": "Suspicious 0dp dimension",
+  "type": "BUG",
+  "tags": [
+    "android",
+    "correctness"
+  ],
+  "defaultSeverity": "MAJOR",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

@@ -1,0 +1,16 @@
+{
+  "sqKey": "IconMixedNinePatch",
+  "title": "Clashing PNG and 9-PNG files",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "usability#icons"
+  ],
+  "defaultSeverity": "MINOR",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

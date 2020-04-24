@@ -1,0 +1,16 @@
+{
+  "sqKey": "DuplicateIds",
+  "title": "Duplicate ids within a single layout",
+  "type": "BUG",
+  "tags": [
+    "android",
+    "correctness"
+  ],
+  "defaultSeverity": "CRITICAL",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

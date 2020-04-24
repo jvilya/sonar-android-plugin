@@ -1,0 +1,16 @@
+{
+  "sqKey": "LibraryCustomView",
+  "title": "Custom views in libraries should use res-auto-namespace",
+  "type": "BUG",
+  "tags": [
+    "android",
+    "correctness"
+  ],
+  "defaultSeverity": "CRITICAL",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

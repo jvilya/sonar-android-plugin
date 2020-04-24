@@ -1,0 +1,12 @@
+<pre>NOTE: This issue is disabled by default!
+You can enable it by adding --enable SelectableText
+
+If a <TextView> is used to display data, the user might want to copy that data
+and paste it elsewhere. To allow this, the <TextView> should specify
+android:textIsSelectable="true".
+
+This lint check looks for TextViews which are likely to be displaying data:
+views whose text is set dynamically. This value will be ignored on platforms
+older than API 11, so it is okay to set it regardless of your minSdkVersion.
+
+</pre>

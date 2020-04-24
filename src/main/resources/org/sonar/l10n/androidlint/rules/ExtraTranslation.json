@@ -1,0 +1,16 @@
+{
+  "sqKey": "ExtraTranslation",
+  "title": "Extra translation",
+  "type": "BUG",
+  "tags": [
+    "android",
+    "correctness#messages"
+  ],
+  "defaultSeverity": "CRITICAL",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

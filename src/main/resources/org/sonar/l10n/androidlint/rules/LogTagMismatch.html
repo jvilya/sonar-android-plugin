@@ -1,0 +1,7 @@
+<pre>
+When guarding a Log.v(tag, ...) call with Log.isLoggable(tag), the tag passed
+to both calls should be the same. Similarly, the level passed in to
+Log.isLoggable should typically match the type of Log call, e.g. if checking
+level Log.DEBUG, the corresponding Log call should be Log.d, not Log.i.
+
+</pre>

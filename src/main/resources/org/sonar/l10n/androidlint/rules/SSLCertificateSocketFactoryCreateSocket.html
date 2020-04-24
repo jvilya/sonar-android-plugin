@@ -1,0 +1,11 @@
+<pre>
+When SSLCertificateSocketFactory.createSocket() is called with an InetAddress
+as the first parameter, TLS/SSL hostname verification is not performed, which
+could result in insecure network traffic caused by trusting arbitrary
+hostnames in TLS/SSL certificates presented by peers. In this case, developers
+must ensure that the InetAddress is explicitly verified against the
+certificate through other means, such as by calling
+`SSLCertificateSocketFactory.getDefaultHostnameVerifier() to get a
+HostnameVerifier and calling HostnameVerifier.verify().
+
+</pre>

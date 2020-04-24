@@ -1,0 +1,22 @@
+<pre>
+This lint check looks for potential errors in internationalization where you
+have translated a message which involves a quantity and it looks like other
+parts of the string may need grammatical changes.
+
+For example, rather than something like this:
+  <string name="try_again">Try again in %d seconds.</string>
+you should be using a plural:
+   <plurals name="try_again">
+        <item quantity="one">Try again in %d second</item>
+        <item quantity="other">Try again in %d seconds</item>
+    </plurals>
+This will ensure that in other languages the right set of translations are
+provided for the different quantity classes.
+
+(This check depends on some heuristics, so it may not accurately determine
+whether a string really should be a quantity. You can use tools:ignore to
+filter out false positives.
+
+More information: 
+http://developer.android.com/guide/topics/resources/string-resource.html#Plurals
+</pre>

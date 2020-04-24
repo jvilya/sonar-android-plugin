@@ -1,0 +1,16 @@
+{
+  "sqKey": "InvalidPermission",
+  "title": "Invalid Permission Attribute",
+  "type": "BUG",
+  "tags": [
+    "android",
+    "security"
+  ],
+  "defaultSeverity": "MAJOR",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

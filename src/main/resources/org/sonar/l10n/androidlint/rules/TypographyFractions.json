@@ -1,0 +1,16 @@
+{
+  "sqKey": "TypographyFractions",
+  "title": "Fraction string can be replaced with fraction character",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "usability#typography"
+  ],
+  "defaultSeverity": "MINOR",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

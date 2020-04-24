@@ -1,0 +1,14 @@
+<pre>
+When calling TextView#setText
+* Never call Number#toString() to format numbers; it will not handle fraction
+separators and locale-specific digits properly. Consider using String#format
+with proper format specifications (%d or %f) instead.
+* Do not pass a string literal (e.g. "Hello") to display text. Hardcoded text
+can not be properly translated to other languages. Consider using Android
+resource strings instead.
+* Do not build messages by concatenating text chunks. Such messages can not be
+properly translated.
+
+More information: 
+http://developer.android.com/guide/topics/resources/localization.html
+</pre>

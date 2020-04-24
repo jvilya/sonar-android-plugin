@@ -1,0 +1,16 @@
+<pre>
+Launcher icons should be provided in the mipmap resource directory. This is
+the same as the drawable resource directory, except resources in the mipmap
+directory will not get stripped out when creating density-specific APKs.
+
+In certain cases, the Launcher app may use a higher resolution asset (than
+would normally be computed for the device) to display large app shortcuts. If
+drawables for densities other than the device's resolution have been stripped
+out, then the app shortcut could appear blurry.
+
+To fix this, move your launcher icons from `drawable-`dpi to `mipmap-`dpi and
+change references from @drawable/ and R.drawable to @mipmap/ and R.mipmap.
+In Android Studio this lint warning has a quickfix to perform this
+automatically.
+
+</pre>

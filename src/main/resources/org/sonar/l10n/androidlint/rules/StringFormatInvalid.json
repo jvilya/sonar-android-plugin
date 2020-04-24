@@ -1,0 +1,16 @@
+{
+  "sqKey": "StringFormatInvalid",
+  "title": "Invalid format string",
+  "type": "BUG",
+  "tags": [
+    "android",
+    "correctness#messages"
+  ],
+  "defaultSeverity": "MAJOR",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

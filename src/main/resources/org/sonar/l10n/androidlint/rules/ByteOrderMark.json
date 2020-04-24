@@ -1,0 +1,16 @@
+{
+  "sqKey": "ByteOrderMark",
+  "title": "Byte order mark inside files",
+  "type": "BUG",
+  "tags": [
+    "android",
+    "internationalization"
+  ],
+  "defaultSeverity": "CRITICAL",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

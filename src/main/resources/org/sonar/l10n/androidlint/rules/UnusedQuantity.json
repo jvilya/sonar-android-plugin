@@ -1,0 +1,16 @@
+{
+  "sqKey": "UnusedQuantity",
+  "title": "Unused quantity translations",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "correctness#messages"
+  ],
+  "defaultSeverity": "MINOR",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

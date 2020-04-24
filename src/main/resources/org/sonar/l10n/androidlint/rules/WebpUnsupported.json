@@ -1,0 +1,16 @@
+{
+  "sqKey": "WebpUnsupported",
+  "title": "WebP Unsupported",
+  "type": "BUG",
+  "tags": [
+    "android",
+    "usability#icons"
+  ],
+  "defaultSeverity": "MAJOR",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

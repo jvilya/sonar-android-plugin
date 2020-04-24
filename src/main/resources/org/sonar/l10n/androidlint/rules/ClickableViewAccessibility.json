@@ -1,0 +1,16 @@
+{
+  "sqKey": "ClickableViewAccessibility",
+  "title": "Accessibility in Custom Views",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "accessibility"
+  ],
+  "defaultSeverity": "MINOR",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

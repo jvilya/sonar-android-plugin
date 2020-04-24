@@ -1,0 +1,16 @@
+{
+  "sqKey": "ImpliedTouchscreenHardware",
+  "title": "Hardware feature touchscreen not explicitly marked as optional",
+  "type": "BUG",
+  "tags": [
+    "android",
+    "correctness"
+  ],
+  "defaultSeverity": "MAJOR",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

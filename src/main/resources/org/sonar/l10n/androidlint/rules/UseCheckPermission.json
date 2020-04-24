@@ -1,0 +1,16 @@
+{
+  "sqKey": "UseCheckPermission",
+  "title": "Using the result of check permission calls",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "security"
+  ],
+  "defaultSeverity": "MINOR",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

@@ -1,0 +1,14 @@
+<pre>
+The documentation for Parcel#readParcelable(ClassLoader) (and its variations)
+says that you can pass in null to pick up the default class loader. However,
+that ClassLoader is a system class loader and is not able to find classes in
+your own application.
+
+If you are writing your own classes into the Parcel (not just SDK classes like
+String and so on), then you should supply a ClassLoader for your application
+instead; a simple way to obtain one is to just call
+getClass().getClassLoader() from your own class.
+
+More information: 
+http://developer.android.com/reference/android/os/Parcel.html
+</pre>

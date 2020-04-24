@@ -1,0 +1,16 @@
+{
+  "sqKey": "HardcodedDebugMode",
+  "title": "Hardcoded value of android:debuggable in the manifest",
+  "type": "BUG",
+  "tags": [
+    "android",
+    "security"
+  ],
+  "defaultSeverity": "CRITICAL",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

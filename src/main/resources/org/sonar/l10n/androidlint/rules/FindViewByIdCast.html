@@ -1,0 +1,11 @@
+<pre>
+In Android O, the findViewById signature switched to using generics, which
+means that most of the time you can leave out explicit casts and just assign
+the result of the findViewById call to variables of specific view classes.
+
+However, due to language changes between Java 7 and 8, this change may cause
+code to not compile without explicit casts. This lint check looks for these
+scenarios and suggests casts to be added now such that the code will continue
+to compile if the language level is updated to 1.8.
+
+</pre>

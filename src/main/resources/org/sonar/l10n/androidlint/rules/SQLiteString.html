@@ -1,0 +1,22 @@
+<pre>
+In SQLite, any column can store any data type; the declared type for a column
+is more of a hint as to what the data should be cast to when stored.
+
+There are many ways to store a string. TEXT, VARCHAR, CHARACTER and CLOB are
+string types, but `STRING` is not. Columns defined as STRING are actually
+numeric.
+
+If you try to store a value in a numeric column, SQLite will try to cast it to
+a float or an integer before storing. If it can't, it will just store it as a
+string.
+
+This can lead to some subtle bugs. For example, when SQLite encounters a
+string like 1234567e1234, it will parse it as a float, but the result will be
+out of range for floating point numbers, so Inf will be stored! Similarly,
+strings that look like integers will lose leading zeroes.
+
+To fix this, you can change your schema to use a TEXT type instead.
+
+More information: 
+https://www.sqlite.org/datatype3.html
+</pre>

@@ -1,0 +1,16 @@
+{
+  "sqKey": "SelectableText",
+  "title": "Dynamic text should probably be selectable",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "usability"
+  ],
+  "defaultSeverity": "MINOR",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

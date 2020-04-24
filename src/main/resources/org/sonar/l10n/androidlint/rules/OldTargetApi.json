@@ -1,0 +1,16 @@
+{
+  "sqKey": "OldTargetApi",
+  "title": "Target SDK attribute is not targeting latest version",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "correctness"
+  ],
+  "defaultSeverity": "MINOR",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

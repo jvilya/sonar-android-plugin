@@ -1,0 +1,16 @@
+{
+  "sqKey": "ButtonCase",
+  "title": "Cancel/OK dialog button capitalization",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "usability"
+  ],
+  "defaultSeverity": "MINOR",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

@@ -1,0 +1,16 @@
+{
+  "sqKey": "WearableBindListener",
+  "title": "Usage of Android Wear BIND_LISTENER is deprecated",
+  "type": "BUG",
+  "tags": [
+    "android",
+    "performance"
+  ],
+  "defaultSeverity": "CRITICAL",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

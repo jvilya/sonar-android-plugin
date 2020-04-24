@@ -1,0 +1,20 @@
+<pre>
+If an application has more than one locale, then all the strings declared in
+one language should also be translated in all other languages.
+
+If the string should not be translated, you can add the attribute
+translatable="false" on the <string> element, or you can define all your
+non-translatable strings in a resource file called donottranslate.xml. Or, you
+can ignore the issue with a tools:ignore="MissingTranslation" attribute.
+
+By default this detector allows regions of a language to just provide a subset
+of the strings and fall back to the standard language strings. You can require
+all regions to provide a full translation by setting the environment variable
+ANDROID_LINT_COMPLETE_REGIONS.
+
+You can tell lint (and other tools) which language is the default language in
+your res/values/ folder by specifying tools:locale="languageCode" for the root
+<resources> element in your resource file. (The tools prefix refers to the
+namespace declaration http://schemas.android.com/tools.)
+
+</pre>

@@ -1,0 +1,16 @@
+{
+  "sqKey": "TypographyOther",
+  "title": "Other typographical problems",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "usability#typography"
+  ],
+  "defaultSeverity": "MINOR",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

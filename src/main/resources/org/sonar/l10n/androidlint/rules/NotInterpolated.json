@@ -1,0 +1,16 @@
+{
+  "sqKey": "NotInterpolated",
+  "title": "Incorrect Interpolation",
+  "type": "BUG",
+  "tags": [
+    "android",
+    "correctness"
+  ],
+  "defaultSeverity": "MAJOR",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

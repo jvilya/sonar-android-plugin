@@ -1,0 +1,16 @@
+{
+  "sqKey": "TypographyQuotes",
+  "title": "Straight quotes can be replaced with curvy quotes",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "usability#typography"
+  ],
+  "defaultSeverity": "MINOR",
+  "constantCost": {
+    "func": "Constant/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}
