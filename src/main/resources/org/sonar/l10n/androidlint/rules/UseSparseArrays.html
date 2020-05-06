@@ -1,15 +1,12 @@
-<pre>
-For maps where the keys are of type integer, it's typically more efficient to
-use the Android SparseArray API. This check identifies scenarios where you
-might want to consider using SparseArray instead of HashMap for better
-performance.
+<p>
+For maps where the keys are of type integer, it's typically more efficient to use the Android SparseArray API. This check identifies scenarios where you might want to consider using SparseArray instead of HashMap for better performance. 
+</p>
+<p>
+This is particularly useful when the value types are primitives like ints, where you can use SparseIntArray and avoid auto-boxing the values from int to Integer. 
+</p>
+<p>
+If you need to construct a HashMap because you need to call an API outside of your control which requires a Map, you can suppress this warning using for example the @SuppressLint annotation. 
+</p>
+<p>
 
-This is particularly useful when the value types are primitives like ints,
-where you can use SparseIntArray and avoid auto-boxing the values from int to
-Integer.
-
-If you need to construct a HashMap because you need to call an API outside of
-your control which requires a Map, you can suppress this warning using for
-example the @SuppressLint annotation.
-
-</pre>
+</p>

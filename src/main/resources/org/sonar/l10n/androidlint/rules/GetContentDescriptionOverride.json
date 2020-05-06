@@ -1,14 +1,14 @@
 {
   "sqKey": "GetContentDescriptionOverride",
   "title": "Overriding getContentDescription() on a View",
-  "type": "BUG",
+  "type": "CODE_SMELL",
   "tags": [
     "android",
     "accessibility"
   ],
   "defaultSeverity": "MAJOR",
-  "constantCost": {
-    "func": "Constant/Issue",
+  "remediation": {
+    "func": "Constant\\/Issue",
     "constantCost": "5min"
   },
   "status": "ready",

@@ -1,13 +1,9 @@
-<pre>
-There are a number of libraries that duplicate not just functionality of the
-Android platform but using the exact same class names as the ones provided in
-Android -- for example the apache http classes. This can lead to unexpected
-crashes.
+<p>
+There are a number of libraries that duplicate not just functionality of the Android platform but using the exact same class names as the ones provided in Android -- for example the apache http classes. This can lead to unexpected crashes. 
+</p>
+<p>
+To solve this, you need to either find a newer version of the library which no longer has this problem, or to repackage the library (and all of its dependencies) using something like the jarjar tool, or finally, rewriting the code to use different APIs (for example, for http code, consider using HttpUrlConnection or a library like okhttp.) 
+</p>
+<p>
 
-To solve this, you need to either find a newer version of the library which no
-longer has this problem, or to repackage the library (and all of its
-dependencies) using something like the jarjar tool, or finally, rewriting the
-code to use different APIs (for example, for http code, consider using
-HttpUrlConnection or a library like okhttp.)
-
-</pre>
+</p>

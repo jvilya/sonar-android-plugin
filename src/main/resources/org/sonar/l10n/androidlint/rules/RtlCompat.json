@@ -1,14 +1,14 @@
 {
   "sqKey": "RtlCompat",
   "title": "Right-to-left text compatibility issues",
-  "type": "BUG",
+  "type": "CODE_SMELL",
   "tags": [
     "android",
     "internationalization#bidirectional-text"
   ],
   "defaultSeverity": "MAJOR",
-  "constantCost": {
-    "func": "Constant/Issue",
+  "remediation": {
+    "func": "Constant\\/Issue",
     "constantCost": "5min"
   },
   "status": "ready",

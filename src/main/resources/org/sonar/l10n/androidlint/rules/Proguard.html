@@ -1,12 +1,6 @@
-<pre>
-Using -keepclasseswithmembernames in a proguard config file is not correct; it
-can cause some symbols to be renamed which should not be.
-Earlier versions of ADT used to create proguard.cfg files with the wrong
-format. Instead of -keepclasseswithmembernames use -keepclasseswithmembers,
-since the old flags also implies "allow shrinking" which means symbols only
-referred to from XML and not Java (such as possibly CustomViews) can get
-deleted.
-
-More information: 
-http://http://code.google.com/p/android/issues/detail?id=16384
-</pre>
+<p>
+Using -keepclasseswithmembernames in a proguard config file is not correct; it can cause some symbols to be renamed which should not be. Earlier versions of ADT used to create proguard.cfg files with the wrong format. Instead of -keepclasseswithmembernames use -keepclasseswithmembers, since the old flags also implies &quot;allow shrinking&quot; which means symbols only referred to from XML and not Java (such as possibly CustomViews) can get deleted. 
+</p>
+<p>
+More information:  <a href="http://http://code.google.com/p/android/issues/detail?id=16384">http://http://code.google.com/p/android/issues/detail?id=16384</a> 
+</p>

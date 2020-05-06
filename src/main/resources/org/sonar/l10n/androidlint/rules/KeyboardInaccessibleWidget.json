@@ -7,8 +7,8 @@
     "accessibility"
   ],
   "defaultSeverity": "MINOR",
-  "constantCost": {
-    "func": "Constant/Issue",
+  "remediation": {
+    "func": "Constant\\/Issue",
     "constantCost": "5min"
   },
   "status": "ready",

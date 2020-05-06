@@ -1,9 +1,6 @@
-<pre>
-Wakelocks have two acquire methods: one with a timeout, and one without. You
-should generally always use the one with a timeout. A typical timeout is 10
-minutes. If the task takes longer than it is critical that it happens (i.e.
-can't use JobScheduler) then maybe they should consider a foreground service
-instead (which is a stronger run guarantee and lets the user know something
-long/important is happening.)
+<p>
+Wakelocks have two acquire methods: one with a timeout, and one without. You should generally always use the one with a timeout. A typical timeout is 10 minutes. If the task takes longer than it is critical that it happens (i.e. can't use JobScheduler) then maybe they should consider a foreground service instead (which is a stronger run guarantee and lets the user know something long/important is happening.) 
+</p>
+<p>
 
-</pre>
+</p>

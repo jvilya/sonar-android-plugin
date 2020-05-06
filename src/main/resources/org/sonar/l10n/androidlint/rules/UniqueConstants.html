@@ -1,12 +1,9 @@
-<pre>
-The @IntDef annotation allows you to create a light-weight "enum" or type
-definition. However, it's possible to accidentally specify the same value for
-two or more of the values, which can lead to hard-to-detect bugs. This check
-looks for this scenario and flags any repeated constants.
+<p>
+The @IntDef annotation allows you to create a light-weight &quot;enum&quot; or type definition. However, it's possible to accidentally specify the same value for two or more of the values, which can lead to hard-to-detect bugs. This check looks for this scenario and flags any repeated constants. 
+</p>
+<p>
+In some cases, the repeated constant is intentional (for example, renaming a constant to a more intuitive name, and leaving the old name in place for compatibility purposes.)  In that case, simply suppress this check by adding a @SuppressLint(&quot;UniqueConstants&quot;) annotation. 
+</p>
+<p>
 
-In some cases, the repeated constant is intentional (for example, renaming a
-constant to a more intuitive name, and leaving the old name in place for
-compatibility purposes.)  In that case, simply suppress this check by adding a
-@SuppressLint("UniqueConstants") annotation.
-
-</pre>
+</p>

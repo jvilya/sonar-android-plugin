@@ -1,12 +1,9 @@
-<pre>
-To improve the usability of some APIs, some methods that used to be abstract
-have been made concrete by adding default implementations. This means that
-when compiling with new versions of the SDK, your code does not have to
-override these methods.
+<p>
+To improve the usability of some APIs, some methods that used to be abstract have been made concrete by adding default implementations. This means that when compiling with new versions of the SDK, your code does not have to override these methods. 
+</p>
+<p>
+However, if your code is also targeting older versions of the platform where these methods were still abstract, the code will crash. You must override all methods that used to be abstract in any versions targeted by your application's minSdkVersion. 
+</p>
+<p>
 
-However, if your code is also targeting older versions of the platform where
-these methods were still abstract, the code will crash. You must override all
-methods that used to be abstract in any versions targeted by your
-application's minSdkVersion.
-
-</pre>
+</p>

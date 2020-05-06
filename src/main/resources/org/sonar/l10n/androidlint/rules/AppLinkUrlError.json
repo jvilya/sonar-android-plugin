@@ -1,14 +1,14 @@
 {
   "sqKey": "AppLinkUrlError",
   "title": "URL not supported by app for Firebase App Indexing",
-  "type": "BUG",
+  "type": "CODE_SMELL",
   "tags": [
     "android",
     "usability"
   ],
   "defaultSeverity": "MAJOR",
-  "constantCost": {
-    "func": "Constant/Issue",
+  "remediation": {
+    "func": "Constant\\/Issue",
     "constantCost": "5min"
   },
   "status": "ready",

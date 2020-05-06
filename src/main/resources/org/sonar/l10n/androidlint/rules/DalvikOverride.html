@@ -1,13 +1,12 @@
-<pre>
-The Android virtual machine will treat a package private method in one class
-as overriding a package private method in its super class, even if they are in
-separate packages. This may be surprising, but for compatibility reasons the
-behavior has not been changed (yet).
+<p>
+The Android virtual machine will treat a package private method in one class as overriding a package private method in its super class, even if they are in separate packages. This may be surprising, but for compatibility reasons the behavior has not been changed (yet). 
+</p>
+<p>
+If you really did intend for this method to override the other, make the method protected instead. 
+</p>
+<p>
+If you did not intend the override, consider making the method private, or changing its name or signature. 
+</p>
+<p>
 
-If you really did intend for this method to override the other, make the
-method protected instead.
-
-If you did not intend the override, consider making the method private, or
-changing its name or signature.
-
-</pre>
+</p>

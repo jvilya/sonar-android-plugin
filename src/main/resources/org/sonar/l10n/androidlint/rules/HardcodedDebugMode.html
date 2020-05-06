@@ -1,11 +1,9 @@
-<pre>
-It's best to leave out the android:debuggable attribute from the manifest. If
-you do, then the tools will automatically insert android:debuggable=true when
-building an APK to debug on an emulator or device. And when you perform a
-release build, such as Exporting APK, it will automatically set it to false.
+<p>
+It's best to leave out the android:debuggable attribute from the manifest. If you do, then the tools will automatically insert android:debuggable=true when building an APK to debug on an emulator or device. And when you perform a release build, such as Exporting APK, it will automatically set it to false. 
+</p>
+<p>
+If on the other hand you specify a specific value in the manifest file, then the tools will always use it. This can lead to accidentally publishing your app with debug information. 
+</p>
+<p>
 
-If on the other hand you specify a specific value in the manifest file, then
-the tools will always use it. This can lead to accidentally publishing your
-app with debug information.
-
-</pre>
+</p>

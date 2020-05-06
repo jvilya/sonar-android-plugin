@@ -1,18 +1,12 @@
-<pre>
-Key generation, signing, encryption, and random number generation may not
-receive cryptographically strong values due to improper initialization of the
-underlying PRNG on Android 4.3 and below.
-
-If your application relies on cryptographically secure random number
-generation you should apply the workaround described in
-https://android-developers.blogspot.com/2013/08/some-securerandom-thoughts.htm
-l .
-
-This lint rule is mostly informational; it does not accurately detect whether
-cryptographically secure RNG is required, or whether the workaround has
-already been applied. After reading the blog entry and updating your code if
-necessary, you can disable this lint issue.
-
-More information: 
-https://android-developers.blogspot.com/2013/08/some-securerandom-thoughts.html
-</pre>
+<p>
+Key generation, signing, encryption, and random number generation may not receive cryptographically strong values due to improper initialization of the underlying PRNG on Android 4.3 and below. 
+</p>
+<p>
+If your application relies on cryptographically secure random number generation you should apply the workaround described in <a href="https://android-developers.blogspot.com/2013/08/some-securerandom-thoughts.htm">https://android-developers.blogspot.com/2013/08/some-securerandom-thoughts.htm</a> l . 
+</p>
+<p>
+This lint rule is mostly informational; it does not accurately detect whether cryptographically secure RNG is required, or whether the workaround has already been applied. After reading the blog entry and updating your code if necessary, you can disable this lint issue. 
+</p>
+<p>
+More information:  <a href="https://android-developers.blogspot.com/2013/08/some-securerandom-thoughts.html">https://android-developers.blogspot.com/2013/08/some-securerandom-thoughts.html</a> 
+</p>

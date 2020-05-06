@@ -1,14 +1,14 @@
 {
   "sqKey": "AppCompatCustomView",
   "title": "Appcompat Custom Widgets",
-  "type": "BUG",
+  "type": "CODE_SMELL",
   "tags": [
     "android",
     "correctness"
   ],
   "defaultSeverity": "MAJOR",
-  "constantCost": {
-    "func": "Constant/Issue",
+  "remediation": {
+    "func": "Constant\\/Issue",
     "constantCost": "5min"
   },
   "status": "ready",

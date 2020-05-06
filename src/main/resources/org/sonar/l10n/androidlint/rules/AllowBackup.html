@@ -1,30 +1,21 @@
-<pre>
-The allowBackup attribute determines if an application's data can be backed up
-and restored. It is documented at
-http://developer.android.com/reference/android/R.attr.html#allowBackup
-
-By default, this flag is set to true. When this flag is set to true,
-application data can be backed up and restored by the user using adb backup
-and adb restore.
-
-This may have security consequences for an application. adb backup allows
-users who have enabled USB debugging to copy application data off of the
-device. Once backed up, all application data can be read by the user. adb
-restore allows creation of application data from a source specified by the
-user. Following a restore, applications should not assume that the data, file
-permissions, and directory permissions were created by the application
-itself.
-
-Setting allowBackup="false" opts an application out of both backup and
-restore.
-
-To fix this warning, decide whether your application should support backup,
-and explicitly set android:allowBackup=(true|false)".
-
-If not set to false, and if targeting API 23 or later, lint will also warn
-that you should set android:fullBackupContent to configure auto backup.
-
-More information: 
-https://developer.android.com/training/backup/autosyncapi.html
-http://developer.android.com/reference/android/R.attr.html#allowBackup
-</pre>
+<p>
+The allowBackup attribute determines if an application's data can be backed up and restored. It is documented at <a href="http://developer.android.com/reference/android/R.attr.html#allowBackup">http://developer.android.com/reference/android/R.attr.html#allowBackup</a> 
+</p>
+<p>
+By default, this flag is set to true. When this flag is set to true, application data can be backed up and restored by the user using adb backup and adb restore. 
+</p>
+<p>
+This may have security consequences for an application. adb backup allows users who have enabled USB debugging to copy application data off of the device. Once backed up, all application data can be read by the user. adb restore allows creation of application data from a source specified by the user. Following a restore, applications should not assume that the data, file permissions, and directory permissions were created by the application itself. 
+</p>
+<p>
+Setting allowBackup=&quot;false&quot; opts an application out of both backup and restore. 
+</p>
+<p>
+To fix this warning, decide whether your application should support backup, and explicitly set android:allowBackup=(true|false)&quot;. 
+</p>
+<p>
+If not set to false, and if targeting API 23 or later, lint will also warn that you should set android:fullBackupContent to configure auto backup. 
+</p>
+<p>
+More information:  <a href="https://developer.android.com/training/backup/autosyncapi.html">https://developer.android.com/training/backup/autosyncapi.html</a> <a href="http://developer.android.com/reference/android/R.attr.html#allowBackup">http://developer.android.com/reference/android/R.attr.html#allowBackup</a> 
+</p>

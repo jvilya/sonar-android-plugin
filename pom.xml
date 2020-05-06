@@ -59,6 +59,11 @@
             <version>1.11.0.541</version>
         </dependency>
         <dependency>
+            <groupId>org.sonarsource.analyzer-commons</groupId>
+            <artifactId>sonar-xml-parsing</artifactId>
+            <version>1.11.0.541</version>
+        </dependency>
+        <dependency>
             <groupId>org.jetbrains.kotlin</groupId>
             <artifactId>kotlin-stdlib-jdk8</artifactId>
             <version>${kotlin.version}</version>
@@ -91,7 +96,7 @@
                     <pluginClass>com.github.jvilya.sonar.android.lint.AndroidLintPlugin</pluginClass>
                     <pluginDescription>Sonarqube plugin for Android Lint.</pluginDescription>
                     <pluginKey>android-lint</pluginKey>
-                    <pluginName>Sonar Android Lint Plugin</pluginName>
+                    <pluginName>Android Lint</pluginName>
                     <pluginSourcesUrl>https://github.com/jvilya/sonar-android-plugin</pluginSourcesUrl>
                     <pluginUrl>https://github.com/jvilya/sonar-android-plugin</pluginUrl>
                 </configuration>

@@ -1,14 +1,14 @@
 {
   "sqKey": "MissingTranslation",
   "title": "Incomplete translation",
-  "type": "BUG",
+  "type": "CODE_SMELL",
   "tags": [
     "android",
     "correctness#messages"
   ],
   "defaultSeverity": "CRITICAL",
-  "constantCost": {
-    "func": "Constant/Issue",
+  "remediation": {
+    "func": "Constant\\/Issue",
     "constantCost": "5min"
   },
   "status": "ready",

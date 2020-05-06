@@ -1,18 +1,12 @@
-<pre>
-Non-textual widgets like ImageViews and ImageButtons should use the
-contentDescription attribute to specify a textual description of the widget
-such that screen readers and other accessibility tools can adequately describe
-the user interface.
+<p>
+Non-textual widgets like ImageViews and ImageButtons should use the contentDescription attribute to specify a textual description of the widget such that screen readers and other accessibility tools can adequately describe the user interface. 
+</p>
+<p>
+Note that elements in application screens that are purely decorative and do not provide any content or enable a user action should not have accessibility content descriptions. In this case, just suppress the lint warning with a tools:ignore=&quot;ContentDescription&quot; attribute. 
+</p>
+<p>
+Note that for text fields, you should not set both the hint and the contentDescription attributes since the hint will never be shown. Just set the hint. See <a href="http://developer.android.com/guide/topics/ui/accessibility/checklist.html#spec">http://developer.android.com/guide/topics/ui/accessibility/checklist.html#spec</a> ial-cases. 
+</p>
+<p>
 
-Note that elements in application screens that are purely decorative and do
-not provide any content or enable a user action should not have accessibility
-content descriptions. In this case, just suppress the lint warning with a
-tools:ignore="ContentDescription" attribute.
-
-Note that for text fields, you should not set both the hint and the
-contentDescription attributes since the hint will never be shown. Just set the
-hint. See
-http://developer.android.com/guide/topics/ui/accessibility/checklist.html#spec
-ial-cases.
-
-</pre>
+</p>

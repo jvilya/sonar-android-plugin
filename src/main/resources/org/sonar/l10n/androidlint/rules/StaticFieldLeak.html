@@ -1,14 +1,15 @@
-<pre>
-A static field will leak contexts.
+<p>
+A static field will leak contexts. 
+</p>
+<p>
+Non-static inner classes have an implicit reference to their outer class. If that outer class is for example a Fragment or Activity, then this reference means that the long-running handler/loader/task will hold a reference to the activity which prevents it from getting garbage collected. 
+</p>
+<p>
+Similarly, direct field references to activities and fragments from these longer running instances can cause leaks. 
+</p>
+<p>
+ViewModel classes should never point to Views or non-application Contexts. 
+</p>
+<p>
 
-Non-static inner classes have an implicit reference to their outer class. If
-that outer class is for example a Fragment or Activity, then this reference
-means that the long-running handler/loader/task will hold a reference to the
-activity which prevents it from getting garbage collected.
-
-Similarly, direct field references to activities and fragments from these
-longer running instances can cause leaks.
-
-ViewModel classes should never point to Views or non-application Contexts.
-
-</pre>
+</p>

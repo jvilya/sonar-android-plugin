@@ -1,14 +1,14 @@
 {
   "sqKey": "PackagedPrivateKey",
   "title": "Packaged private key",
-  "type": "BUG",
+  "type": "VULNERABILITY",
   "tags": [
     "android",
     "security"
   ],
   "defaultSeverity": "CRITICAL",
-  "constantCost": {
-    "func": "Constant/Issue",
+  "remediation": {
+    "func": "Constant\\/Issue",
     "constantCost": "5min"
   },
   "status": "ready",
