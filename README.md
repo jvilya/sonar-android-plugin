@@ -16,7 +16,40 @@ SonarQube plugin for supporting Android Lint
 ### Plans
 
 - Add support of custom lint checks
-- Implement sensor that run Android Lint analysis on its own (not just parsing `lint-results.xml` file)
+- Implement sensor that runs Android Lint analysis on its own (not just parsing `lint-results.xml` file)
+
+### Settings
+
+To specify Android Lint report file you can use `sonar.androidLint.reportPaths` property.
+
+For example, in the project configuration
+
+```groovy
+sonarqube {
+    properties {
+        property "sonar.androidLint.reportPaths", "build/reports/lint-results.xml"
+    }
+}
+```
+
+or SonarQube's project settings
+
+![Settigns](docs/images/android-lint-settings.png)
+
+### Usage
+
+Get the latest version from the [Releases Page](https://github.com/jvilya/sonar-android-plugin/releases). Put the jar
+ to 
+`$SONAR_HOME/extensions/plugins` folder. Restart SonarQube.
+
+Or build plugin by yourself
+
+- `git clone https://github.com/jvilya/sonar-android-plugin`
+- `cd sonar-android-plugin`
+- `mvn package`
+- `cp target/sonar-android-lint-[enter_version].jar $SONAR_HOME/extensions/plugins`
+- `cd $SONAR_HOME/bin/[your_os]`
+- `./sonar.sh restart`
 
 ### Why?
 
@@ -37,18 +70,4 @@ The support of external issues looks nice if you are ok with its limitations:
 > on the Rules page or reflected in Quality Profiles.
 > - external issues and the rules that raise them must be managed in the configuration of your linter.
 
-As result this plugin was developed for providing the native SonarQube's experience to work with Android Lint issues.
-
-### Usage
-
-Get the latest version from [releases page](https://github.com/jvilya/sonar-android-plugin/releases). Put the jar to 
-`$SONAR_HOME/extensions/plugins` folder. Restart SonarQube.
-
-Or build plugin by yourself
-
-- `git clone https://github.com/jvilya/sonar-android-plugin`
-- `cd sonar-android-plugin`
-- `mvn package`
-- `cp target/sonar-android-lint-[enter_version].jar $SONAR_HOME/extensions/plugins`
-- `cd $SONAR_HOME/bin/[your_os]`
-- `./sonar.sh restart`
+As a result, this plugin was developed for providing the native SonarQube's experience to work with Android Lint issues.
