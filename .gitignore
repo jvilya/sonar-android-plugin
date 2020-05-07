@@ -1,6 +1,5 @@
 .gradle
 /build/
-.idea
 /target/
 .DS_STORE
 
@@ -20,3 +19,8 @@ sonar-kotlin.ipr
 sonar-kotlin.iws
 sonar-kotlin_main.iml
 sonar-kotlin_test.iml
+
+!/.idea/codeStyles/
+!/.idea/codeStyles/**/*
+!/.idea/codeStyles/*
+/.idea
