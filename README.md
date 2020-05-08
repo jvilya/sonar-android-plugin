@@ -20,7 +20,7 @@ SonarQube plugin for supporting Android Lint
 
 ### Settings
 
-To specify Android Lint report file you can use `sonar.androidLint.reportPaths` property.
+To specify Android Lint report file you can use `sonar.androidLint.reportPaths` property. It's comma-delimited list of paths to AndroidLint reports.
 
 For example, in the project configuration
 
