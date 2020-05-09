@@ -1,0 +1,17 @@
+{
+  "sqKey": "TimberTagLength",
+  "title": "Too Long Log Tags",
+  "type": "BUG",
+  "tags": [
+    "android",
+    "timber",
+    "correctness"
+  ],
+  "defaultSeverity": "MAJOR",
+  "remediation": {
+    "func": "Constant\\/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}
