@@ -313,6 +313,14 @@
     "RtlCompat",
     "RtlSymmetry",
     "RtlHardcoded",
-    "RtlEnabled"
+    "RtlEnabled",
+    "LogNotTimber",
+    "StringFormatInTimber",
+    "ThrowableNotAtBeginning",
+    "BinaryOperationInTimber",
+    "TimberArgCount",
+    "TimberArgTypes",
+    "TimberTagLength",
+    "TimberExceptionLogging"
   ]
 }

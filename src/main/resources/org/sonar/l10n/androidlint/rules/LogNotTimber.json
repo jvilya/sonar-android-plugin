@@ -1,0 +1,17 @@
+{
+  "sqKey": "LogNotTimber",
+  "title": "Logging call to Log instead of Timber",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "timber",
+    "correctness#messages"
+  ],
+  "defaultSeverity": "MINOR",
+  "remediation": {
+    "func": "Constant\\/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

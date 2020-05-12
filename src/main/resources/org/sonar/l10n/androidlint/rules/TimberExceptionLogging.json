@@ -1,0 +1,17 @@
+{
+  "sqKey": "TimberExceptionLogging",
+  "title": "Exception Logging",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "timber",
+    "correctness"
+  ],
+  "defaultSeverity": "MINOR",
+  "remediation": {
+    "func": "Constant\\/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

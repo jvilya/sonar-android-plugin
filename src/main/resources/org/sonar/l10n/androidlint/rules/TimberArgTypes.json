@@ -1,0 +1,17 @@
+{
+  "sqKey": "TimberArgTypes",
+  "title": "Formatting string doesn't match passed arguments",
+  "type": "BUG",
+  "tags": [
+    "android",
+    "timber",
+    "correctness#messages"
+  ],
+  "defaultSeverity": "MAJOR",
+  "remediation": {
+    "func": "Constant\\/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

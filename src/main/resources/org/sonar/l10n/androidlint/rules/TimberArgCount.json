@@ -1,0 +1,17 @@
+{
+  "sqKey": "TimberArgCount",
+  "title": "Formatting argument types incomplete or inconsistent",
+  "type": "BUG",
+  "tags": [
+    "android",
+    "timber",
+    "correctness#messages"
+  ],
+  "defaultSeverity": "MAJOR",
+  "remediation": {
+    "func": "Constant\\/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

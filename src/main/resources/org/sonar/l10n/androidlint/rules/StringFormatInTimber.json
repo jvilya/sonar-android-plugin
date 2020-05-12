@@ -1,0 +1,17 @@
+{
+  "sqKey": "StringFormatInTimber",
+  "title": "Logging call with Timber contains String#format()",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "timber",
+    "correctness#messages"
+  ],
+  "defaultSeverity": "MINOR",
+  "remediation": {
+    "func": "Constant\\/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}
