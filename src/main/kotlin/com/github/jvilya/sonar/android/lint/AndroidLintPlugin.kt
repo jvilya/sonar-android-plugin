@@ -14,7 +14,7 @@ class AndroidLintPlugin : Plugin {
                 AndroidLintRulesDefinition::class.java,
                 AndroidLintSensor::class.java,
                 AndroidLintLanguage::class.java,
-                PropertyDefinition.builder("sonar.androidLint.reportPaths")
+                PropertyDefinition.builder("sonar.android.lint.reportPaths")
                     .name("Android Lint Report Files")
                     .description("Paths (absolute or relative) to xml files with Android Lint issues.")
                     .onQualifiers(listOf(Qualifiers.PROJECT))
