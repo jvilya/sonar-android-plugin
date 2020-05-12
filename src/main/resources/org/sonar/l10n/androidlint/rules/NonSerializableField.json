@@ -1,0 +1,16 @@
+{
+  "sqKey": "NonSerializableField",
+  "title": "Find non-serializable field in serializable class",
+  "type": "BUG",
+  "tags": [
+    "android",
+    "correctness"
+  ],
+  "defaultSeverity": "CRITICAL",
+  "remediation": {
+    "func": "Constant\\/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

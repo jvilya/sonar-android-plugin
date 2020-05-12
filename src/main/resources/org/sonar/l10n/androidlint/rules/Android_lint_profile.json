@@ -321,6 +321,7 @@
     "TimberArgCount",
     "TimberArgTypes",
     "TimberTagLength",
-    "TimberExceptionLogging"
+    "TimberExceptionLogging",
+    "NonSerializableField"
   ]
 }
