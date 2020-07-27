@@ -1,0 +1,17 @@
+{
+  "sqKey": "ModuleCompanionObjectsNotInModuleParent",
+  "title": "Companion objects should not be annotated with @Module",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "correctness",
+    "dagger"
+  ],
+  "defaultSeverity": "MINOR",
+  "remediation": {
+    "func": "Constant\\/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}
