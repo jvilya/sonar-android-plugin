@@ -322,6 +322,10 @@
     "TimberArgTypes",
     "TimberTagLength",
     "TimberExceptionLogging",
-    "NonSerializableField"
+    "NonSerializableField",
+    "JvmStaticProvidesInObjectDetector",
+    "FieldSiteTargetOnQualifierAnnotation",
+    "ModuleCompanionObjects",
+    "ModuleCompanionObjectsNotInModuleParent"
   ]
 }
