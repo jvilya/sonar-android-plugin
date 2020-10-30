@@ -1,6 +1,6 @@
 {
   "sqKey": "MissingMediaBrowserServiceIntentFilter",
-  "title": "Missing intent-filter with action",
+  "title": "Missing MediaBrowserService intent-filter",
   "type": "BUG",
   "tags": [
     "android",

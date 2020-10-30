@@ -2,7 +2,7 @@
 Android defines a number of different quantity strings, such as zero, one, few and many. However, many languages do not distinguish grammatically between all these different quantities. 
 </p>
 <p>
-This lint check looks at the quantity strings defined for each translation and flags any quantity strings that are unused (because the language does not make that quantity distinction, and Android will therefore not look it up.). 
+This lint check looks at the quantity strings defined for each translation and flags any quantity strings that are unused (because the language does not make that quantity distinction, and Android will therefore not look it up). 
 </p>
 <p>
 For example, in Chinese, only the other quantity is used, so even if you provide translations for zero and one, these strings will not be returned when getQuantityString() is called, even with 0 or 1. 

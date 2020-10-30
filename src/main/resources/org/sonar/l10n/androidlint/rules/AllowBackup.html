@@ -2,13 +2,10 @@
 The allowBackup attribute determines if an application's data can be backed up and restored. It is documented at <a href="http://developer.android.com/reference/android/R.attr.html#allowBackup">http://developer.android.com/reference/android/R.attr.html#allowBackup</a> 
 </p>
 <p>
-By default, this flag is set to true. When this flag is set to true, application data can be backed up and restored by the user using adb backup and adb restore. 
+By default, this flag is set to true which means application data can be backed up and restored by the OS. Setting allowBackup=&quot;false&quot; opts the application out of being backed up and so users can't restore data related to it when they go through the device setup wizard. 
 </p>
 <p>
-This may have security consequences for an application. adb backup allows users who have enabled USB debugging to copy application data off of the device. Once backed up, all application data can be read by the user. adb restore allows creation of application data from a source specified by the user. Following a restore, applications should not assume that the data, file permissions, and directory permissions were created by the application itself. 
-</p>
-<p>
-Setting allowBackup=&quot;false&quot; opts an application out of both backup and restore. 
+Allowing backups may have security consequences for an application. Currently adb backup allows users who have enabled USB debugging to copy application data off of the device. Once backed up, all application data can be read by the user. adb restore allows creation of application data from a source specified by the user. Following a restore, applications should not assume that the data, file permissions, and directory permissions were created by the application itself. 
 </p>
 <p>
 To fix this warning, decide whether your application should support backup, and explicitly set android:allowBackup=(true|false)&quot;. 

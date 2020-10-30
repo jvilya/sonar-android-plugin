@@ -6,7 +6,7 @@
     "android",
     "internationalization"
   ],
-  "defaultSeverity": "CRITICAL",
+  "defaultSeverity": "MAJOR",
   "remediation": {
     "func": "Constant\\/Issue",
     "constantCost": "5min"

@@ -1,12 +1,15 @@
 <p>
-Assertions are not checked at runtime. There are ways to request that they be used by Dalvik (adb shell setprop debug.assert 1), but note that this is not implemented in ART (the newer runtime), and even in Dalvik the property is ignored in many places and can not be relied upon. Instead, perform conditional checking inside if (BuildConfig.DEBUG) { } blocks. That constant is a static final boolean which is true in debug builds and false in release builds, and the Java compiler completely removes all code inside the if-body from the app. 
+Assertions will never be turned on in Android. (It was possible to enable it in Dalvik with adb shell setprop debug.assert 1, but it is not implemented in ART, the runtime for Android 5.0 and later.) 
 </p>
 <p>
-For example, you can replace assert speed &gt; 0 with if (BuildConfig.DEBUG &amp;&amp; !(speed &gt; 0)) { \ throw new AssertionError() }. 
+This means that the assertion will never catch mistakes, and you should not use assertions from Java or Kotlin for debug build checking. 
 </p>
 <p>
-(Note: This lint check does not flag assertions purely asserting nullness or non-nullness; these are typically more intended for tools usage than runtime checks.) 
+Instead, perform conditional checking inside if (BuildConfig.DEBUG) { } blocks. That constant is a static final boolean which will be true only in debug builds, and false in release builds, and the compiler will completely remove all code inside the if-body from the app. 
 </p>
 <p>
-More information:  <a href="https://code.google.com/p/android/issues/detail?id=65183">https://code.google.com/p/android/issues/detail?id=65183</a> 
+For example, you can replace     assert(speed &gt; 0, { &quot;Message&quot; })    // Kotlin     assert speed &gt; 0 : &quot;Message&quot;        // Java with     if (BuildConfig.DEBUG &amp;&amp; !(speed &gt; 0)) {         throw new AssertionError(&quot;Message&quot;)     } (Note: This lint check does not flag assertions purely asserting nullness or non-nullness in Java code; these are typically more intended for tools usage than runtime checks.) 
+</p>
+<p>
+
 </p>

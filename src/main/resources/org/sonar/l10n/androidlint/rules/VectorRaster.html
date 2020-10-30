@@ -1,8 +1,8 @@
 <p>
-Vector icons require API 21, but when using Android Gradle plugin 1.4 or higher, vectors placed in the drawable folder are automatically moved to drawable-*dpi-v21 and a bitmap image is generated each drawable-*dpi folder instead, for backwards compatibility (provided minSdkVersion is less than 21.). 
+Vector icons require API 21 or API 24 depending on used features, but when minSdkVersion is less than 21 or 24 and Android Gradle plugin 1.4 or higher is used, a vector drawable placed in the drawable folder is automatically moved to drawable-anydpi-v21 or drawable-anydpi-v24 and bitmap images are generated for different screen resolutions for backwards compatibility. 
 </p>
 <p>
-However, there are some limitations to this vector image generation, and this lint check flags elements and attributes that are not fully supported. You should manually check whether the generated output is acceptable for those older devices. 
+However, there are some limitations to this raster image generation, and this lint check flags elements and attributes that are not fully supported. You should manually check whether the generated output is acceptable for those older devices. 
 </p>
 <p>
 

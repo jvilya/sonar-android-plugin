@@ -1,6 +1,6 @@
 {
   "sqKey": "NotSibling",
-  "title": "RelativeLayout Invalid Constraints",
+  "title": "Invalid Constraints",
   "type": "BUG",
   "tags": [
     "android",

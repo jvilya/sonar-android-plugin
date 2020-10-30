@@ -2,7 +2,7 @@
 Using Gravity#LEFT and Gravity#RIGHT can lead to problems when a layout is rendered in locales where text flows from right to left. Use Gravity#START and Gravity#END instead. Similarly, in XML gravity and layout_gravity attributes, use start rather than left. 
 </p>
 <p>
-For XML attributes such as paddingLeft and layout_marginLeft, use paddingStart and layout_marginStart. NOTE: If your minSdkVersion is less than 17, you should add both the older left/right attributes as well as the new start/right attributes. On older platforms, where RTL is not supported and the start/right attributes are unknown and therefore ignored, you need the older left/right attributes. There is a separate lint check which catches that type of error. 
+For XML attributes such as paddingLeft and layout_marginLeft, use paddingStart and layout_marginStart. NOTE: If your minSdkVersion is less than 17, you should add both the older left/right attributes as well as the new start/end attributes. On older platforms, where RTL is not supported and the start/end attributes are unknown and therefore ignored, you need the older left/right attributes. There is a separate lint check which catches that type of error. 
 </p>
 <p>
 (Note: For Gravity#LEFT and Gravity#START, you can use these constants even when targeting older platforms, because the start bitmask is a superset of the left bitmask. Therefore, you can use gravity=&quot;start&quot; rather than gravity=&quot;left|start&quot;.) 
