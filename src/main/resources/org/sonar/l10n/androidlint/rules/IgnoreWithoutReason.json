@@ -1,0 +1,16 @@
+{
+  "sqKey": "IgnoreWithoutReason",
+  "title": "@Ignore without Reason",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "testing"
+  ],
+  "defaultSeverity": "MINOR",
+  "remediation": {
+    "func": "Constant\\/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

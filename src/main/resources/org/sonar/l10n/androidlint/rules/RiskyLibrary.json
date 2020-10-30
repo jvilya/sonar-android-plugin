@@ -1,10 +1,10 @@
 {
-  "sqKey": "MissingRegistered",
-  "title": "Missing registered class",
+  "sqKey": "RiskyLibrary",
+  "title": "Libraries with Privacy or Security Risks",
   "type": "BUG",
   "tags": [
     "android",
-    "correctness"
+    "security"
   ],
   "defaultSeverity": "MAJOR",
   "remediation": {

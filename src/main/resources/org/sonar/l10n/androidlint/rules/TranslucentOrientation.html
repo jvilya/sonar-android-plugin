@@ -1,0 +1,12 @@
+<p>
+Specifying a fixed screen orientation with a translucent theme isn't supported on apps with targetSdkVersion O or greater since there can be an another activity visible behind your activity with a conflicting request. 
+</p>
+<p>
+For example, your activity requests landscape and the visible activity behind your translucent activity request portrait. In this case the system can only honor one of the requests and currently prefers to honor the request from non-translucent activities since there is nothing visible behind them. 
+</p>
+<p>
+Devices running platform version O or greater will throw an exception in your app if this state is detected. 
+</p>
+<p>
+
+</p>

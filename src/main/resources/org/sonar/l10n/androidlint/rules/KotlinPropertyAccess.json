@@ -1,0 +1,16 @@
+{
+  "sqKey": "KotlinPropertyAccess",
+  "title": "Kotlin Property Access",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "interoperability#kotlin-interoperability"
+  ],
+  "defaultSeverity": "MINOR",
+  "remediation": {
+    "func": "Constant\\/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

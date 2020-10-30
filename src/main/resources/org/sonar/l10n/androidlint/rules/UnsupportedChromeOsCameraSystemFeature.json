@@ -1,0 +1,16 @@
+{
+  "sqKey": "UnsupportedChromeOsCameraSystemFeature",
+  "title": "Looking for Rear Camera only feature",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "correctness#chrome-os"
+  ],
+  "defaultSeverity": "MAJOR",
+  "remediation": {
+    "func": "Constant\\/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

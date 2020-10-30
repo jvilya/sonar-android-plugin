@@ -1,0 +1,15 @@
+<p>
+If a resource is only defined in folders with qualifiers like -land or -en, and there is no default declaration in the base folder (layout or values etc), then the app will crash if that resource is accessed on a device where the device is in a configuration missing the given qualifier. 
+</p>
+<p>
+As a special case, drawables do not have to be specified in the base folder; if there is a match in a density folder (such as drawable-mdpi) that image will be used and scaled. Note however that if you  only specify a drawable in a folder like drawable-en-hdpi, the app will crash in non-English locales. 
+</p>
+<p>
+There may be scenarios where you have a resource, such as a -fr drawable, which is only referenced from some other resource with the same qualifiers (such as a -fr style), which itself has safe fallbacks. However, this still makes it possible for somebody to accidentally reference the drawable and crash, so it is safer to create a default dummy fallback in the base folder. Alternatively, you can suppress the issue by adding tools:ignore=&quot;MissingDefaultResource&quot; on the element. 
+</p>
+<p>
+(This scenario frequently happens with string translations, where you might delete code and the corresponding resources, but forget to delete a translation. There is a dedicated issue id for that scenario, with the id ExtraTranslation.) 
+</p>
+<p>
+
+</p>

@@ -1,0 +1,27 @@
+<p>
+NOTE: This issue is disabled by default! You can enable it by adding --enable ExpensiveAssertion 
+</p>
+<p>
+In Kotlin, assertions are not handled the same way as from the Java programming language. In particular, they're just implemented as a library call, and inside the library call the error is only thrown if assertions are enabled. 
+</p>
+<p>
+This means that the arguments to the assert call will always be evaluated. If you're doing any computation in the expression being asserted, that computation will unconditionally be performed whether or not assertions are turned on. This typically turns into wasted work in release builds. 
+</p>
+<p>
+This check looks for cases where the assertion condition is nontrivial, e.g. it is performing method calls or doing more work than simple comparisons on local variables or fields. 
+</p>
+<p>
+You can work around this by writing your own inline assert method instead: 
+</p>
+<p>
+@Suppress(&quot;INVISIBLE_REFERENCE&quot;, &quot;INVISIBLE_MEMBER&quot;) inline fun assert(condition: () -&gt; Boolean) {     if (_Assertions.ENABLED &amp;&amp; !condition()) {         throw AssertionError()     } } 
+</p>
+<p>
+In Android, because assertions are not enforced at runtime, instead use this: 
+</p>
+<p>
+inline fun assert(condition: () -&gt; Boolean) {     if (BuildConfig.DEBUG &amp;&amp; !condition()) {         throw AssertionError()     } } 
+</p>
+<p>
+
+</p>

@@ -1,0 +1,15 @@
+<p>
+NOTE: This issue is disabled by default! You can enable it by adding --enable NoHardKeywords 
+</p>
+<p>
+Do not use Kotlin&rsquo;s hard keywords as the name of methods or fields. These require the use of backticks to escape when calling from Kotlin. Soft keywords, modifier keywords, and special identifiers are allowed. 
+</p>
+<p>
+For example, Mockito&rsquo;s when function requires backticks when used from Kotlin: 
+</p>
+<p>
+    val callable = Mockito.mock(Callable::class.java)     Mockito.`when`(callable.call()).thenReturn(/* &hellip; */) 
+</p>
+<p>
+More information:  <a href="https://android.github.io/kotlin-guides/interop.html#no-hard-keywords">https://android.github.io/kotlin-guides/interop.html#no-hard-keywords</a> 
+</p>

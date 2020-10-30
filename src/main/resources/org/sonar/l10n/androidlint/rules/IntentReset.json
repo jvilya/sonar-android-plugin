@@ -1,10 +1,10 @@
 {
-  "sqKey": "FloatMath",
-  "title": "Using FloatMath instead of Math",
+  "sqKey": "IntentReset",
+  "title": "Suspicious mix of setType and setData",
   "type": "CODE_SMELL",
   "tags": [
     "android",
-    "performance"
+    "correctness"
   ],
   "defaultSeverity": "MINOR",
   "remediation": {
