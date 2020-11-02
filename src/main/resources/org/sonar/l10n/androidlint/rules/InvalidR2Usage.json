@@ -1,0 +1,16 @@
+{
+  "sqKey": "InvalidR2Usage",
+  "title": "Invalid usage of R2",
+  "type": "BUG",
+  "tags": [
+    "android",
+    "correctness"
+  ],
+  "defaultSeverity": "MAJOR",
+  "remediation": {
+    "func": "Constant\\/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

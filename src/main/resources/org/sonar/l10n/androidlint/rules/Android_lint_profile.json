@@ -326,6 +326,7 @@
     "JvmStaticProvidesInObjectDetector",
     "FieldSiteTargetOnQualifierAnnotation",
     "ModuleCompanionObjects",
-    "ModuleCompanionObjectsNotInModuleParent"
+    "ModuleCompanionObjectsNotInModuleParent",
+    "InvalidR2Usage"
   ]
 }
