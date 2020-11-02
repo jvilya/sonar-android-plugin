@@ -1,0 +1,15 @@
+<p>
+In a custom view's draw implementation, you should normally call getWidth and getHeight on the custom view itself, not on the canvas instance. 
+</p>
+<p>
+Canvas width and height are the width and height of the Canvas, which is not always the same as size of the view. 
+</p>
+<p>
+In the hardware accelerated path the width and height of the canvas typically always match that of the View because every view goes to its own recorded DisplayList. But in software rendering there's just one canvas that is clipped and transformed as it makes its way through the View tree, and otherwise remains the same Canvas object for every View's draw method. 
+</p>
+<p>
+You should only use Canvas state to adjust how much you draw, such as a quick-reject for early work avoidance if it's going to be clipped away, but not what you draw. 
+</p>
+<p>
+
+</p>

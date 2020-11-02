@@ -1,0 +1,21 @@
+<p>
+For LinkedHashMap: 
+</p>
+<p>
+The spliterators returned by LinkedHashMap in Android Nougat (API levels 24 and 25) use the wrong order (inconsistent with the iterators, which use the correct order), despite reporting Spliterator.ORDERED. You may use the following code fragments to obtain a correctly ordered Spliterator on API level 24 and 25: 
+</p>
+<p>
+For a Collection view c = lhm.entrySet(), c = lhm.keySet() or c = lhm.values(), use java.util.Spliterators.spliterator(c, c.spliterator().characteristics()) instead of c.spliterator(). 
+</p>
+<p>
+Instead of c.stream() or c.parallelStream(), use java.util.stream.StreamSupport.stream(spliterator, false) to construct a (nonparallel) Stream from such a Spliterator. 
+</p>
+<p>
+For Vector: 
+</p>
+<p>
+The listIterator() returned for a Vector has a broken add() implementation on Android N (API level 24). Consider switching to ArrayList and if necessary adding synchronization. 
+</p>
+<p>
+More information:  <a href="https://developer.android.com/reference/java/util/LinkedHashMap">https://developer.android.com/reference/java/util/LinkedHashMap</a> 
+</p>

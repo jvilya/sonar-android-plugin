@@ -1,0 +1,16 @@
+{
+  "sqKey": "AnnotationProcessorOnCompilePath",
+  "title": "Annotation Processor on Compile Classpath",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "performance"
+  ],
+  "defaultSeverity": "MINOR",
+  "remediation": {
+    "func": "Constant\\/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

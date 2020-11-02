@@ -1,0 +1,9 @@
+<p>
+NOTE: This issue is disabled by default! You can enable it by adding --enable ImplicitSamInstance 
+</p>
+<p>
+Kotlin's support for SAM (single accessor method) interfaces lets you pass a lambda to the interface. This will create a new instance on the fly even though there is no explicit constructor call. If you pass one of these lambdas or method references into a method which (for example) stores or compares the object identity, unexpected results may happen. 
+</p>
+<p>
+
+</p>

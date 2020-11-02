@@ -6,7 +6,7 @@
     "android",
     "security"
   ],
-  "defaultSeverity": "INFO",
+  "defaultSeverity": "MINOR",
   "remediation": {
     "func": "Constant\\/Issue",
     "constantCost": "5min"

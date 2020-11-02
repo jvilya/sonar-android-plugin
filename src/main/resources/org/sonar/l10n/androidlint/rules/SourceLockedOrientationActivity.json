@@ -1,0 +1,16 @@
+{
+  "sqKey": "SourceLockedOrientationActivity",
+  "title": "Activity is locked to an orientation",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "correctness#chrome-os"
+  ],
+  "defaultSeverity": "MAJOR",
+  "remediation": {
+    "func": "Constant\\/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

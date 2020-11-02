@@ -1,11 +1,17 @@
 <p>
-The Android virtual machine will treat a package private method in one class as overriding a package private method in its super class, even if they are in separate packages. This may be surprising, but for compatibility reasons the behavior has not been changed (yet). 
+NOTE: This issue is disabled by default! You can enable it by adding --enable DalvikOverride 
+</p>
+<p>
+The Dalvik virtual machine will treat a package private method in one class as overriding a package private method in its super class, even if they are in separate packages. 
 </p>
 <p>
 If you really did intend for this method to override the other, make the method protected instead. 
 </p>
 <p>
 If you did not intend the override, consider making the method private, or changing its name or signature. 
+</p>
+<p>
+Note that this check is disabled be default, because ART (the successor to Dalvik) no longer has this behavior. 
 </p>
 <p>
 

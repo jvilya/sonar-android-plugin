@@ -1,12 +1,12 @@
 {
   "sqKey": "StopShip",
   "title": "Code contains STOPSHIP marker",
-  "type": "CODE_SMELL",
+  "type": "BUG",
   "tags": [
     "android",
     "correctness"
   ],
-  "defaultSeverity": "MINOR",
+  "defaultSeverity": "CRITICAL",
   "remediation": {
     "func": "Constant\\/Issue",
     "constantCost": "5min"

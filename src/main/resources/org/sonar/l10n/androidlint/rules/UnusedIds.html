@@ -5,5 +5,11 @@ NOTE: This issue is disabled by default! You can enable it by adding --enable Un
 This resource id definition appears not to be needed since it is not referenced from anywhere. Having id definitions, even if unused, is not necessarily a bad idea since they make working on layouts and menus easier, so there is not a strong reason to delete these. 
 </p>
 <p>
+The unused resource check can ignore tests. If you want to include resources that are only referenced from tests, consider packaging them in a test source set instead. 
+</p>
+<p>
+You can include test sources in the unused resource check by setting the system property lint.unused-resources.include-tests=true, and to exclude them (usually for performance reasons), use lint.unused-resources.exclude-tests=true. 
+</p>
+<p>
 
 </p>

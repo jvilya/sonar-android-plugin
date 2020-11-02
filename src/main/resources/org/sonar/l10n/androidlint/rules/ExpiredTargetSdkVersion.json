@@ -1,0 +1,16 @@
+{
+  "sqKey": "ExpiredTargetSdkVersion",
+  "title": "TargetSdkVersion No Longer Supported",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "compliance"
+  ],
+  "defaultSeverity": "CRITICAL",
+  "remediation": {
+    "func": "Constant\\/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

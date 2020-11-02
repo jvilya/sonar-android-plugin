@@ -1,0 +1,16 @@
+{
+  "sqKey": "LifecycleAnnotationProcessorWithJava8",
+  "title": "Lifecycle Annotation Processor with Java 8 Compile Option",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "performance"
+  ],
+  "defaultSeverity": "MINOR",
+  "remediation": {
+    "func": "Constant\\/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

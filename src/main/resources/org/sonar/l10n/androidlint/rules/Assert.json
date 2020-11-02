@@ -1,6 +1,6 @@
 {
   "sqKey": "Assert",
-  "title": "Assertions",
+  "title": "Ignored Assertions",
   "type": "CODE_SMELL",
   "tags": [
     "android",

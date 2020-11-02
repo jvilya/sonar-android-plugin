@@ -1,0 +1,16 @@
+{
+  "sqKey": "InvalidNavigation",
+  "title": "No start destination specified",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "correctness"
+  ],
+  "defaultSeverity": "MINOR",
+  "remediation": {
+    "func": "Constant\\/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

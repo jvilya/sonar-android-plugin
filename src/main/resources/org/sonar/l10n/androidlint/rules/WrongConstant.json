@@ -4,7 +4,7 @@
   "type": "BUG",
   "tags": [
     "android",
-    "security"
+    "correctness"
   ],
   "defaultSeverity": "MAJOR",
   "remediation": {

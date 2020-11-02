@@ -1,5 +1,8 @@
 <p>
-Text fields should be labelled with a labelFor attribute, provided your minSdkVersion is at least 17. 
+Editable text fields should provide an android:hint or, provided your minSdkVersion is at least 17, they may be referenced by a view with a android:labelFor attribute. 
+</p>
+<p>
+When using android:labelFor, be sure to provide an android:text or an android:contentDescription. 
 </p>
 <p>
 If your view is labeled but by a label in a different layout which includes this one, just suppress this warning from lint. 

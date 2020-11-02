@@ -1,0 +1,16 @@
+{
+  "sqKey": "ConstantLocale",
+  "title": "Constant Locale",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "internationalization"
+  ],
+  "defaultSeverity": "MINOR",
+  "remediation": {
+    "func": "Constant\\/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

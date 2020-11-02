@@ -1,0 +1,16 @@
+{
+  "sqKey": "MotionLayoutInvalidSceneFileReference",
+  "title": "layoutDescription must specify a scene file",
+  "type": "BUG",
+  "tags": [
+    "android",
+    "correctness"
+  ],
+  "defaultSeverity": "MAJOR",
+  "remediation": {
+    "func": "Constant\\/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

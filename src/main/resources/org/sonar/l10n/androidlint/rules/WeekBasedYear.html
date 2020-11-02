@@ -1,0 +1,12 @@
+<p>
+NOTE: This issue is disabled by default! You can enable it by adding --enable WeekBasedYear 
+</p>
+<p>
+The DateTimeFormatter pattern YYYY returns the week based year, not the era-based year. This means that 12/29/2019 will format to 2019, but 12/30/2019 will format to 2020! 
+</p>
+<p>
+If you expected this to format as 2019, you should use the pattern yyyy instead. 
+</p>
+<p>
+More information:  <a href="https://stackoverflow.com/questions/46847245/using-datetimeformatter-on-january-first-cause-an-invalid-year-value">https://stackoverflow.com/questions/46847245/using-datetimeformatter-on-january-first-cause-an-invalid-year-value</a> 
+</p>

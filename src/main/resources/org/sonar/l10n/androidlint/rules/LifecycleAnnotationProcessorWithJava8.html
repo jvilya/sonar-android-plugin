@@ -1,0 +1,9 @@
+<p>
+For faster incremental build, switch to the Lifecycle Java 8 API with these steps: 
+</p>
+<p>
+First replace annotationProcessor &quot;androidx.lifecycle:lifecycle-compiler:*version*&quot; kapt &quot;androidx.lifecycle:lifecycle-compiler:*version*&quot; with implementation &quot;androidx.lifecycle:lifecycle-common-java8:*version*&quot; Then remove any OnLifecycleEvent annotations from Observer classes and make them implement the DefaultLifecycleObserver interface. 
+</p>
+<p>
+More information:  <a href="https://d.android.com/r/studio-ui/lifecycle-release-notes">https://d.android.com/r/studio-ui/lifecycle-release-notes</a> 
+</p>

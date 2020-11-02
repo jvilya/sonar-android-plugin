@@ -1,6 +1,6 @@
 {
   "sqKey": "TextFields",
-  "title": "Missing inputType or hint",
+  "title": "Missing inputType",
   "type": "CODE_SMELL",
   "tags": [
     "android",

@@ -1,6 +1,6 @@
 {
   "sqKey": "MissingIntentFilterForMediaSearch",
-  "title": "Missing intent-filter with action",
+  "title": "Missing MEDIA_PLAY_FROM_SEARCH intent-filter",
   "type": "BUG",
   "tags": [
     "android",

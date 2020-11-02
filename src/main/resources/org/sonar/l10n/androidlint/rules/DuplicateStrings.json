@@ -1,0 +1,16 @@
+{
+  "sqKey": "DuplicateStrings",
+  "title": "Duplicate Strings",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "performance#application-size"
+  ],
+  "defaultSeverity": "MINOR",
+  "remediation": {
+    "func": "Constant\\/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

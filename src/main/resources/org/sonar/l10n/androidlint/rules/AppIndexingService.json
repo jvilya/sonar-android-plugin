@@ -1,0 +1,16 @@
+{
+  "sqKey": "AppIndexingService",
+  "title": "App Indexing Background Services",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "correctness"
+  ],
+  "defaultSeverity": "MINOR",
+  "remediation": {
+    "func": "Constant\\/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

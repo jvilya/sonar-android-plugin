@@ -6,7 +6,7 @@
     "android",
     "correctness#messages"
   ],
-  "defaultSeverity": "CRITICAL",
+  "defaultSeverity": "MAJOR",
   "remediation": {
     "func": "Constant\\/Issue",
     "constantCost": "5min"

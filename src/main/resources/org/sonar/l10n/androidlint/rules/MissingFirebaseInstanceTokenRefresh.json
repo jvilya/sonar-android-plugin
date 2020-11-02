@@ -1,6 +1,6 @@
 {
   "sqKey": "MissingFirebaseInstanceTokenRefresh",
-  "title": "Missing Firebase Instance ID Token Refresh",
+  "title": "Missing Firebase Messaging Callback",
   "type": "CODE_SMELL",
   "tags": [
     "android",

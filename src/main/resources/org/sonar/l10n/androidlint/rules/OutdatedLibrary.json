@@ -1,0 +1,16 @@
+{
+  "sqKey": "OutdatedLibrary",
+  "title": "Outdated Library",
+  "type": "CODE_SMELL",
+  "tags": [
+    "android",
+    "compliance"
+  ],
+  "defaultSeverity": "MAJOR",
+  "remediation": {
+    "func": "Constant\\/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

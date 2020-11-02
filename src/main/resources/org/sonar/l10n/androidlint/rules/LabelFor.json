@@ -1,6 +1,6 @@
 {
   "sqKey": "LabelFor",
-  "title": "Missing labelFor attribute",
+  "title": "Missing accessibility label",
   "type": "CODE_SMELL",
   "tags": [
     "android",

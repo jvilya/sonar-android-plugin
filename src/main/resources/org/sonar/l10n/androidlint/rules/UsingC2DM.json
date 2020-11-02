@@ -1,0 +1,16 @@
+{
+  "sqKey": "UsingC2DM",
+  "title": "Using C2DM",
+  "type": "BUG",
+  "tags": [
+    "android",
+    "security"
+  ],
+  "defaultSeverity": "MAJOR",
+  "remediation": {
+    "func": "Constant\\/Issue",
+    "constantCost": "5min"
+  },
+  "status": "ready",
+  "scope": "All"
+}

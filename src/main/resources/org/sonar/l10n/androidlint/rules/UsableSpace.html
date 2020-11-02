@@ -1,0 +1,12 @@
+<p>
+When you need to allocate disk space for large files, consider using the new allocateBytes(FileDescriptor, long) API, which will automatically clear cached files belonging to other apps (as needed) to meet your request. 
+</p>
+<p>
+When deciding if the device has enough disk space to hold your new data, call getAllocatableBytes(UUID) instead of using getUsableSpace(), since the former will consider any cached data that the system is willing to clear on your behalf. 
+</p>
+<p>
+Note that these methods require API level 26. If your app is running on older devices, you will probably need to use both APIs, conditionally switching on Build.VERSION.SDK_INT. Lint only looks in the same compilation unit to see if you are already using both APIs, so if it warns even though you are already using the new API, consider moving the calls to the same file or suppressing the warning. 
+</p>
+<p>
+
+</p>
